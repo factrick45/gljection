@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "ihm.gljection.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"GameRendererMixin",
+		"KeyboardMixin",
+		"WindowMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

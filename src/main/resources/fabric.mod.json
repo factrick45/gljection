@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "gljection",
+	"version": "${version}",
+	"name": "GL and ImGUI tests",
+	"description": "!",
+	"authors": [
+		"IHM"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "GPL-3.0-or-later",
+	"icon": "assets/gljection/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"ihm.gljection.Mod"
+		]
+	},
+	"mixins": [
+		"gljection.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"java": ">=17"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
